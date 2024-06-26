@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.card{
+    max-width: 1440px;
+    border: 1px solid black;
+    margin: 50px auto;
+    background-color: #0F0F0F;
+    padding: 49px 93px;
+}
+.card__hero{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 138px;
+}
+.logo__name{
+    color: #fff;
+    font-weight: 700;
+    font-size: 28px;
+}
+.menu__nav-list{
+    display: flex;
+    gap: 81px;
+}
+.nav-list__nav-iteam a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+.button a{
+    text-decoration: none;
+    background-color: #fff;
+    padding: 15px 25px;
+    border-radius: 20px;
+    color: #0F0F0F;
+    font-weight: 600;
+    font-size: 18px;
+}
+.card__info{
+    display: flex;
+    gap: 63px;
+}
+.card__deskription--title{
+    color: #fff;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 78px;
+}
+.card__deskription--info{
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 78px;
+    margin-bottom: 34px;
+}
+.card__deskription--button{
+    width: 146px;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 15px 25px;
+    border-radius: 20px;
+    color: #0F0F0F;
+    font-weight: 600;
+    font-size: 18px;
+}
+.card__deskription--button--black{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 15px 25px;
+    border-radius: 20px;
+}
